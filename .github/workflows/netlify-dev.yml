@@ -22,7 +22,7 @@ jobs:
       - name: Build app
         run: npm run build
       - name: Deploy to Netlify
-        uses: nwtgck/actions-netlify@b7c1504e00c6b8a249d1848cc1b522a4865eed99
+        uses: nwtgck/actions-netlify@5da65c9f74c7961c5501a3ba329b8d0912f39c03
         with:
           publish-dir: dist
           deploy-message: "Dev deploy ${{ github.sha }}"
